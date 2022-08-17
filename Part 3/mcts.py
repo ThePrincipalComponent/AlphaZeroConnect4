@@ -94,9 +94,4 @@ for _ in range(num_simulations):
 		node.value += value
 		node.visits += 1
 
-print(search_path[0].children[0].state)
-print(search_path[0].children[0].value)
-
-print(search_path[0].children[5].state)
-print(search_path[0].children[5].value)
 
