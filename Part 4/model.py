@@ -7,7 +7,7 @@ class Connect4Model(nn.Module):
 	def __init__(self, device):
 		super().__init__()
 		self.device = device
-		# define the layers themselves
+		# define the layers
 
 		# conv
 		self.initial_conv = nn.Conv2d(3, 128, kernel_size=3, stride=1, padding=1, bias=True)
